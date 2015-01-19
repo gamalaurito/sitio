@@ -1,0 +1,111 @@
+*{
+	margin: 0; 
+	padding: 0;
+	background-image:url("http://k39.kn3.net/taringa/2/2/7/7/7/9/47/ghostroach7/AE5.jpg?7473");
+}
+header{
+	width:100%;
+	height: 10%;
+	background: transparent;
+	text-align: center;
+}
+header h1{
+	font: sans-serif;
+	font-size: 2.5em;
+	text-transform: capitalize;
+	color: white;
+}
+nav{
+	background: transparent;
+	text-align: center;
+	width: 100%;
+	height: 10%;
+}
+nav ul{
+	background:no-repeat;
+	list-style-type: none;
+	border: 1px solid #E6E6E6;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li{
+	float: left;
+	display: block;
+	width: 20%;
+}
+nav ul li a{
+	color:#555;
+	background:no-repeat;
+	display: block;
+	padding: .35em;
+	text-decoration: none;
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+}
+article{
+	width:85%;
+	float:right;
+	text-align: center;
+	background:transparent;
+}
+article h3{
+	color:#086A87;
+	font-size: 2em;
+	text-align: center;
+	text-decoration: none;
+	background:no-repeat ;
+}
+article p{
+	font-size: 1em;
+	text-align: left;
+	color:#80FF00;
+	background:no-repeat ;
+}
+article img{
+	background:no-repeat ;
+	width: 30%;
+	text-align: center; 
+	clear: both;
+}
+aside{
+	width: 15%;
+	float: left;
+	clear: both
+	text-align: center;
+	background: transparent;
+	
+}
+aside ul{
+	background:no-repeat ;
+	list-style-type: square;
+	border: 1px solid #E6E6E6;
+	margin:0;
+	padding: 0;
+
+}
+aside ul li{
+	background:no-repeat ;
+	float: left;
+	width:100%;
+	}
+aside ul li a{
+	background:no-repeat ;
+	color:#555;
+	display:block;
+	padding: .35em;
+	text-decoration: none;
+	border: 1px solid #E6E6E6;
+}
+footer{
+	clear: both;
+	background:transparent;
+	height: 5%;
+	width: 100%;
+	text-align: right;
+	}
+footer p{
+	background:no-repeat;
+	font:small-caps bold 70% serif; 
+	color: #9FF;
+}
